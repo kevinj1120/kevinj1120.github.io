@@ -1,0 +1,125 @@
+.container{
+  align:right; 
+  //border: green solid 2px;
+}
+
+[class*="h col"]{
+  //border: yellow solid 2px;
+  background-color: #3F6184;
+  height: 80px;
+  color: #F6F7F9; 
+}
+
+[class*="header"]{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: ;
+}
+
+[class*="col"]{
+  //border: yellow solid 2px;
+}
+
+[class*="f col"]{
+  //border: yellow solid 2px;
+  background-color: #3F6184;
+  height: 150px;
+  color: #F6F7F9; 
+}
+
+.row{
+  //border: red solid 3px;
+}
+
+h2.header {
+  color: #F6F7F9; 
+  font-size: 24px; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h2.header:hover {
+  color: #5FAEB6;
+}
+
+h1.header:hover {
+  color: #5FAEB6;
+}
+
+h1{
+  color: #F6F7F9;
+}
+
+[class*="s row"]{
+  height:50px;
+}
+
+[class*="ss row"]{
+  height:25px;
+}
+
+p.words{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h4.content{
+  color: #5FAEB6;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hline {  
+  height: 0.5px; 
+  background: #323A45; 
+  max-width: 100%; 
+}
+
+.wline {  
+  height: 0.5px; 
+  background: #F6F7F9; 
+  max-width: 100%; 
+}
+
+h4.input{
+  border: #5FAEB6 solid 1px;
+  background: #FFFFFF;
+  color: #5FAEB6;
+  border-radius: 5px;
+  height: 48px;
+  width: 175px;
+  text-align: center;
+}
+
+h4.input:hover{
+  background: #5FAEB6;
+  color: #F6F7F9;
+}
+
+[class*="home cards"]{
+  border: #768999 solid 0.5px;
+}
+
+[class*="home cards"]:hover{
+  border: #5FAEB6 solid 4px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 50%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 90% !important;
+}
+
+/* This is a test */
